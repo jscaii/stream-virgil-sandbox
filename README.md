@@ -1,12 +1,5 @@
 # Instructions from Sample Tutorial
 
-As healthcare technology advances, secure real-time communication is becoming
-increasingly crucial to any modern healthcare application. It's essential to
-provide the technology experiences patients expect while protecting their
-privacy and healthcare data. Chat messages often contan protected health
-information (PHI), so you must consider end-to-end encryption when
-building chat into your application.
-
 In this tutorial, we will walk through how to create a full, end-to-end encrypted
 chat solution using [Stream Chat](https://getstream.io/chat/) combined with
 [Virgil Security](https://virgilsecurity.com/end-to-end-encrypted-chat). These
