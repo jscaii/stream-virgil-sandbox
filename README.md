@@ -1,4 +1,4 @@
-# Building HIPAA Compliant End-to-End Encrypted Chat with Stream React Chat and Virgil Security
+# Instructions from Sample Tutorial
 
 As healthcare technology advances, secure real-time communication is becoming
 increasingly crucial to any modern healthcare application. It's essential to
