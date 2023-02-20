@@ -36,7 +36,7 @@ No one in your company, nor any cloud provider you use, can read these messages.
 Even if a malicious person gained access to the database containing the
 messages, all they would see is encrypted text, called ciphertext.
 
-# Let's build a HIPAA compliant chat application using React!
+# Basic Steps
 
 To build this application, we're going to rely on three libraries,
 [Stream React Chat](https://www.npmjs.com/package/stream-chat-react),
@@ -88,21 +88,7 @@ code is intended to run locally on your machine.
 You will need an account with [Stream](https://getstream.io/accounts/signup/) 
 and [Virgil](https://dashboard.virgilsecurity.com/signup). Once you've created
 your accounts, place your credentials in `backend/.env`. You can use 
-`backend/.env.example` as a reference for what credentials are required. 
-
-This tutorial uses the following package versions:
-
-* Node 11.14.0
-* Yarn 1.17.0
-* Stream Chat 0.13.3
-* Stream Chat React 0.6.26
-* Virgil Crypto 3.2.0
-* Virgil SDK 5.3.0
-* Virgil e3Kit 0.5.3
-* Express 4.17.1
-
-Except for `node` and `yarn`, all of these dependencies are declared in 
-`backend/package.json` and `frontend/package.json`. 
+`backend/.env.example` as a reference for what credentials are required.
 
 ## Step 0. Setup the Backend
 For our React frontend to interact with Stream and Virgil, the
